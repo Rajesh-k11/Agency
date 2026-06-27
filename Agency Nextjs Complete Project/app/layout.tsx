@@ -5,7 +5,13 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Atelier Nume | Design Agency",
   description:
-    "A premium design agency crafting editorial digital experiences for ambitious startups and enterprise brands."
+    "A premium design agency crafting editorial digital experiences for ambitious startups and enterprise brands.",
+  keywords: ["Design Agency", "UI/UX", "Web Development", "Brand Identity", "Next.js"],
+  openGraph: {
+    title: "Atelier Nume | Premium Design Agency",
+    description: "Crafting editorial digital experiences for ambitious startups and enterprise brands.",
+    type: "website",
+  }
 };
 
 export default function RootLayout({
