@@ -1,5 +1,3 @@
 [build]
-  # Tell Netlify to build the Next.js project by default
-  base = "Agency Nextjs Complete Project"
   command = "npm run build"
-  publish = ".next"
+  publish = "dist"
