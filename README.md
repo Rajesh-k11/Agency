@@ -14,7 +14,7 @@ To demonstrate versatility, this repository contains **two complete implementati
 - **Language**: TypeScript (TSX)
 - **Styling**: Tailwind CSS (v3) + Custom CSS variables
 - **Icons & Graphics**: Inline SVGs (Handcrafted)
-- **Deployment**: Vercel (Recommended)
+- **Deployment**: Netlify (Pre-configured via `netlify.toml`)
 
 ---
 
@@ -49,6 +49,16 @@ To demonstrate versatility, this repository contains **two complete implementati
    npm run dev
    ```
 4. Open the local link provided by Vite (usually [http://localhost:5173](http://localhost:5173)).
+
+---
+
+## 🌐 Deploying to Netlify
+
+This repository is **Netlify-ready**. A `netlify.toml` file has been added to the root of the repository so Netlify knows exactly what to do.
+
+1. Connect your GitHub repository to Netlify.
+2. Netlify will automatically detect the `netlify.toml` file.
+3. It will set the base directory to `Agency Nextjs Complete Project` and deploy the Next.js app automatically. No manual configuration is required!
 
 ---
 
